@@ -90,28 +90,15 @@
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="frontend/assets/img/logo.png" alt="TechBiz" class="logo"></a>
+                <a href="/"><img src="frontend/assets/img/logo.png" alt="TechBiz" class="logo"></a>
             </div>
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home 1 - Layerslider</a></li>
-                            <li><a href="index-slickslider.html">Home 1 - Slickslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-2.html">Home 2 - Layerslider</a></li>
-                            <li><a href="index-2-slickslider.html">Home 2 - Slickslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-3.html">Home 3 - Layerslider</a></li>
-                            <li><a href="index-3-slickslider.html">Home 3 - Slickslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-4.html">Home 4 - Layerslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-4-slickslider.html">Home 4 - Slickslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-5.html">Home 5 - Layerslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-5-slickslider.html">Home 5 - Slickslider <span class="new-label">new</span></a></li>
-                            <li><a href="index-6.html">Home 6 - Layerslider <span class="new-label">new</span></a></li>
-                        </ul>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="{{ route('about') }}">About Us</a>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="blog.html">Blog</a>
@@ -155,7 +142,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="{{ route('contact') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -174,7 +161,7 @@
                 <h1 class="breadcumb-title">Services</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Services</li>
                     </ul>
                 </div>
@@ -255,7 +242,7 @@
                     <h2 class="h1 sec-title cta-title1">Need A Consultation?</h2>
                 </div>
                 <div class="col-lg-auto">
-                    <a href="contact.html" class="vs-btn">Get A Quote<i class="far fa-arrow-right"></i></a>
+                    <a href="{{ route('contact') }}" class="vs-btn">Get A Quote<i class="far fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
