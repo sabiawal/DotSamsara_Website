@@ -33,26 +33,26 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="logo-style1">
-                                <a href="#"><img src="assets/img/logo-white.png" alt="TechBiz" class="logo"></a>
+                                <a href="/"><img src="frontend/assets/img/logo-white.png" alt="TechBiz" class="logo"></a>
                             </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu menu-style1 d-none d-lg-block">
                                 <ul>
                                     <li class="">
-                                        <a href="#"><span class="has-new-lable">Home<span class="new-label">new</span></span></a>
+                                        <a href="/"><span class="has-new-lable">Home<span class="new-label">new</span></span></a>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <a href="{{ route('about') }}">About Us</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="service.html">Service</a>
+                                        <a href="#">Service</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
+                                            <li><a href="{{ route('service') }}">Service</a></li>
+                                            <li><a href="{{ route('service_details') }}">Service Details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children mega-menu-wrap">
+                                    {{-- <li class="menu-item-has-children mega-menu-wrap">
                                         <a href="#">Pages</a>
                                         <ul class="mega-menu">
                                             <li><a href="#">Pagelist 3</a>
@@ -75,9 +75,9 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> --}}
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="{{ route('contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

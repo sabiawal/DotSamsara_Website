@@ -28,17 +28,17 @@
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container footer-links">
                             <ul class="menu">
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
                                 <li><a href="#">Our Mission</a></li>
                                 <li><a href="#">Meet The Teams</a></li>
                                 <li><a href="#">Our Projects</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                <li><a href="{{ route('service') }}">Our Services</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
                                 <li><a href="#">Our Mission</a></li>
                                 <li><a href="#">Meet The Teams</a></li>
                                 <li><a href="#">Our Projects</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>

@@ -60,22 +60,6 @@
 
     </head>
     <body class="antialiased">
-        {{-- <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    @auth
-                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-        </div> --}}
-
         <div class="preloader  ">
             <button class="vs-btn preloaderCls">Cancel Preloader </button>
             <div class="preloader-inner">
@@ -95,7 +79,7 @@
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="about.html">About Us</a>
+                            <a href="{{ route('about') }}">About Us</a>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="blog.html">Blog</a>
@@ -106,7 +90,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="{{ route('contact') }}">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -126,8 +110,8 @@
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            {{-- <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -173,7 +157,7 @@
                                 <span class="hero-subtitle">SUCCESS YOUR BUSINESS</span>
                                 <h1 class="hero-title">Excellent IT services for your success</h1>
                                 <div class="hero-btns">
-                                    <a href="about.html" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('about') }}" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
                                     <a href="blog.html" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -198,7 +182,7 @@
                                 <span class="hero-subtitle">CONVERY YOU BRAND ESSENCE</span>
                                 <h1 class="hero-title">Take Service from Expert IT Professinal</h1>
                                 <div class="hero-btns">
-                                    <a href="about.html" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('about') }}" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
                                     <a href="blog.html" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -223,7 +207,7 @@
                                 <span class="hero-subtitle">DEDICATED SUPPORT TEAM</span>
                                 <h1 class="hero-title">Take Free Consultaion For Your Brand</h1>
                                 <div class="hero-btns">
-                                    <a href="about.html" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('about') }}" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
                                     <a href="blog.html" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -305,7 +289,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="contact.html" class="vs-btn">Get A Quote<i class="far fa-arrow-right"></i></a>
+                        <a href="{{ route('contact')  }}" class="vs-btn">Get A Quote<i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
