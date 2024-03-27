@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>TechBiz - Blog Details</title>
+    <title>DotSamsara - Blog Details</title>
     <meta name="author" content="vecuro">
-    <meta name="description" content="TechBiz - IT Solution & Service HTML Template">
-    <meta name="keywords" content="TechBiz - IT Solution & Service HTML Template" />
+    <meta name="description" content="DotSamsara">
+    <meta name="keywords" content="DotSamsara" />
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -95,7 +95,7 @@
                 <h1 class="breadcumb-title">Blog Details</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Blog Details</li>
                     </ul>
                 </div>
@@ -346,7 +346,7 @@
                                 <a href="blog.html">Advice</a>
                                 <a href="blog.html">Author</a>
                                 <a href="blog.html">Consulting</a>
-                                <a href="blog.html">TechBiz</a>
+                                <a href="blog.html">DotSamsara</a>
                                 <a href="blog.html">Family</a>
                                 <a href="blog.html">Health</a>
                                 <a href="blog.html">Judge</a>

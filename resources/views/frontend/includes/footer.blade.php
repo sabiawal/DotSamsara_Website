@@ -4,7 +4,7 @@
             <div class="row align-items-center justify-content-between gy-30">
                 <div class="col-sm-auto">
                     <div class="footer-top-logo">
-                        <a href="index.html"><img src="frontend/assets/img/logo-white.png" alt="TechBiz" class="logo"></a>
+                        <a href="/"><img src="frontend/assets/img/logo-white.png" alt="DotSamsara" class="logo"></a>
                     </div>
                 </div>
                 <div class="col-sm-auto">
@@ -87,7 +87,7 @@
     </div>
     <div class="copyright-wrap">
         <div class="container">
-            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2022 <a class="text-white" href="index.html">TechBiz</a>. All rights reserved by <a class="text-white" href="https://themeforest.net/user/vecuro_themes">Vecuro</a>.</p>
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2022 <a class="text-white" href="">DotSamsara</a>. All rights reserved by <a class="text-white" href="https://themeforest.net/user/vecuro_themes">Vecuro</a>.</p>
         </div>
     </div>
 </footer>

@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>TechBiz - IT Solution & Service HTML Template - Service Details</title>
+    <title>DotSamsara - Service Details</title>
     <meta name="author" content="vecuro">
-    <meta name="description" content="TechBiz - IT Solution & Service HTML Template">
-    <meta name="keywords" content="TechBiz - IT Solution & Service HTML Template" />
+    <meta name="description" content="DotSamsara">
+    <meta name="keywords" content="DotSamsara" />
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->

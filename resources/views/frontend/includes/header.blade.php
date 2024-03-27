@@ -8,7 +8,7 @@
                         <ul>
                             <li><i class="far fa-phone-alt"></i><a href="tel:+25632542598">(+256) 3254 2598</a></li>
                             <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>121 King St. Melbourne VIC 3000, Australia</li>
-                            <li><i class="far fa-envelope"></i><a href="mailto:example@TechBiz.com">example@TechBiz.com</a></li>
+                            <li><i class="far fa-envelope"></i><a href="mailto:example@DotSamsara.com">example@DotSamsara.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="logo-style1">
-                                <a href="/"><img src="frontend/assets/img/logo-white.png" alt="TechBiz" class="logo"></a>
+                                <a href="/"><img src="frontend/assets/img/logo-white.png" alt="DotSamsara" class="logo"></a>
                             </div>
                         </div>
                         <div class="col-auto">

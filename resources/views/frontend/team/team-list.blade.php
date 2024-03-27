@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>TechBiz - Team</title>
+    <title>DotSamsara - Team</title>
     <meta name="author" content="vecuro">
-    <meta name="description" content="TechBiz - IT Solution & Service HTML Template">
-    <meta name="keywords" content="TechBiz - IT Solution & Service HTML Template" />
+    <meta name="description" content="DotSamsara">
+    <meta name="keywords" content="DotSamsara" />
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -95,8 +95,8 @@
                 <h1 class="breadcumb-title">Team</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Team</li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="{{ route('team_list') }}">Team</a></li>
                     </ul>
                 </div>
             </div>

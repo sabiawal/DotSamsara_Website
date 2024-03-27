@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>TechBiz - IT Solution & Service HTML Template - Contact Us</title>
+    <title>DotSamsara - Contact Us</title>
     <meta name="author" content="vecuro">
-    <meta name="description" content="TechBiz - IT Solution & Service HTML Template">
-    <meta name="keywords" content="TechBiz - IT Solution & Service HTML Template" />
+    <meta name="description" content="DotSamsara">
+    <meta name="keywords" content="DotSamsara" />
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -110,17 +110,17 @@
             <div class="nav contact-tab-menu" id="nav-contactTab" role="tablist">
                 <button class="nav-link active" id="nav-GermanyAddress-tab" data-bs-toggle="tab" data-bs-target="#nav-GermanyAddress" type="button" role="tab" aria-controls="nav-GermanyAddress" aria-selected="true">
                     <span class="btn-img"><img src="frontend/assets/img/contact/contact-1-1.jpg" alt="contact"></span>
-                    <span class="btn-title">TechBiz, Germany</span>
+                    <span class="btn-title">DotSamsara, Germany</span>
                     <span class="btn-text">86 KKL, FrankFrut</span>
                 </button>
                 <button class="nav-link" id="nav-AustraliaAddress-tab" data-bs-toggle="tab" data-bs-target="#nav-AustraliaAddress" type="button" role="tab" aria-controls="nav-AustraliaAddress" aria-selected="false">
                     <span class="btn-img"><img src="frontend/assets/img/contact/contact-1-2.jpg" alt="contact"></span>
-                    <span class="btn-title">TechBiz, Australia</span>
+                    <span class="btn-title">DotSamsara, Australia</span>
                     <span class="btn-text">259 NYD, Canberra</span>
                 </button>
                 <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
                     <span class="btn-img"><img src="frontend/assets/img/contact/contact-1-3.jpg" alt="contact"></span>
-                    <span class="btn-title">TechBiz, United State</span>
+                    <span class="btn-title">DotSamsara, United State</span>
                     <span class="btn-text">259 NYD, NewYork</span>
                 </button>
             </div>
