@@ -61,7 +61,7 @@
     </head>
     <body class="antialiased">
         <div class="preloader  ">
-            <button class="vs-btn preloaderCls">Cancel Preloader </button>
+            {{-- <button class="vs-btn preloaderCls">Cancel Preloader </button> --}}
             <div class="preloader-inner">
                 <span class="loader"></span>
             </div>
@@ -82,11 +82,11 @@
                             <a href="{{ route('about') }}">About Us</a>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="blog.html">Blog</a>
+                            <a href="#">Blog</a>
                             <ul class="sub-menu">
-                                <li><a href="blog.html">Blog List</a></li>
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="{{ route('blog_list') }}">Blog List</a></li>
+                                <li><a href="{{ route('blog_grid') }}">Blog Grid</a></li>
+                                <li><a href="{{ route('blog_details') }}">Blog Details</a></li>
                             </ul>
                         </li>
                         <li>
@@ -103,7 +103,7 @@
                 <div class="widget  ">
                     <div class="vs-widget-about">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="frontend/assets/img/logo.png" alt="TechBiz" class="logo"></a>
+                            <a href="/"><img src="frontend/assets/img/logo.png" alt="TechBiz" class="logo"></a>
                         </div>
                         <p class="footer-text">Intrinsicly evisculate emerging cutting edge scenarios redefine future-proof e-markets demand line</p>
                         <div class="footer-social">
@@ -158,7 +158,7 @@
                                 <h1 class="hero-title">Excellent IT services for your success</h1>
                                 <div class="hero-btns">
                                     <a href="{{ route('about') }}" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
-                                    <a href="blog.html" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('blog_list') }}" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                                 <h1 class="hero-title">Take Service from Expert IT Professinal</h1>
                                 <div class="hero-btns">
                                     <a href="{{ route('about') }}" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
-                                    <a href="blog.html" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('blog_list') }}" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,7 @@
                                 <h1 class="hero-title">Take Free Consultaion For Your Brand</h1>
                                 <div class="hero-btns">
                                     <a href="{{ route('about') }}" class="vs-btn ls-hero-btn">ABOUT US<i class="far fa-arrow-right"></i></a>
-                                    <a href="blog.html" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('blog_list') }}" class="vs-btn style2 ls-hero-btn">READ MORE<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -231,17 +231,17 @@
                             <div class="col-xl-4">
                                 <div class="feature-style2">
                                     <div class="feature-icon"><img src="frontend/assets/img/icon/fe-2-2.png" alt="Features"></div>
-                                    <h3 class="feature-title h5"><a class="text-inherit" href="service-details.html">IT Solution</a></h3>
+                                    <h3 class="feature-title h5"><a class="text-inherit" href="{{ route('service_details') }}">IT Solution</a></h3>
                                     <p class="feature-text">Seize magnetic before visa alignment network wireless whereas frictionless</p>
-                                    <a href="service-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('service_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-4">
                                 <div class="feature-style2">
                                     <div class="feature-icon"><img src="frontend/assets/img/icon/fe-2-1.png" alt="Features"></div>
-                                    <h3 class="feature-title h5"><a class="text-inherit" href="service-details.html">IT Consultant</a></h3>
+                                    <h3 class="feature-title h5"><a class="text-inherit" href="{{ route('service_details') }}">IT Consultant</a></h3>
                                     <p class="feature-text">Seize magnetic before visa alignment network wireless whereas frictionless</p>
-                                    <a href="service-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                    <a href="{{ route('service_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -250,12 +250,12 @@
             </div>
         </section>
         
-        <section class=" space" data-bg-src="frontend/assets/img/bg/ab-bg-2-1.jpg" id="aboutv2">
+        <section class="space background-image" data-bg-src="frontend/assets/img/bg/ab-bg-2-1.jpg" id="aboutv2">
             <div class="container">
                 <div class="row gx-60">
-                    <div class=" col-xl-6 mb-50 mb-xl-0  wow fadeInUp" data-wow-delay="0.2s">
+                    <div class=" col-xl-6 mb-50 mb-xl-0  wow fadeInUp wow-animated" data-wow-delay="0.2s">
                         <div class="img-box3">
-                            <div class="img-1"><img src="frontend/assets/img/about/ab-2-1.jpg" alt="About image"></div>
+                            <div class="img-1" style="margin-left: 100px;"><img src="frontend/assets/img/about/ab-2-1.jpg" alt="About image"></div>
                             <div class="img-2"><img src="frontend/assets/img/about/ab-2-2.jpg" alt="About image"></div>
                             <div class="award-box">
                                 <div class="award-box__shape"></div>
@@ -311,7 +311,7 @@
                             <div class="team-img">
                                 <div class="team-shape1"></div>
                                 <div class="team-shape2"></div>
-                                <a href="team-details.html"><img src="frontend/assets/img/team/t-2-1.jpg" alt="image"></a>
+                                <a href="{{ route('team_details') }}"><img src="frontend/assets/img/team/t-2-1.jpg" alt="image"></a>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -319,7 +319,7 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-title h5"><a class="text-inherit" href="team-details.html">Grayson Gabriel</a></h3>
+                                <h3 class="team-title h5"><a class="text-inherit" href="{{ route('team_details') }}">Grayson Gabriel</a></h3>
                                 <p class="team-degi">Cheif Expert</p>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                             <div class="team-img">
                                 <div class="team-shape1"></div>
                                 <div class="team-shape2"></div>
-                                <a href="team-details.html"><img src="frontend/assets/img/team/t-2-2.jpg" alt="image"></a>
+                                <a href="{{ route('team_details') }}"><img src="frontend/assets/img/team/t-2-2.jpg" alt="image"></a>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -337,7 +337,7 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-title h5"><a class="text-inherit" href="team-details.html">Samuel Thomas</a></h3>
+                                <h3 class="team-title h5"><a class="text-inherit" href="{{ route('team_details') }}">Samuel Thomas</a></h3>
                                 <p class="team-degi">Cheif Expert</p>
                             </div>
                         </div>
@@ -347,7 +347,7 @@
                             <div class="team-img">
                                 <div class="team-shape1"></div>
                                 <div class="team-shape2"></div>
-                                <a href="team-details.html"><img src="frontend/assets/img/team/t-2-3.jpg" alt="image"></a>
+                                <a href="{{ route('team_details') }}"><img src="frontend/assets/img/team/t-2-3.jpg" alt="image"></a>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -357,7 +357,7 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-title h5"><a class="text-inherit" href="team-details.html">William Lucas</a></h3>
+                                <h3 class="team-title h5"><a class="text-inherit" href="{{ route('team_details') }}">William Lucas</a></h3>
                                 <p class="team-degi">Cheif Expert</p>
                             </div>
                         </div>
@@ -367,7 +367,7 @@
                             <div class="team-img">
                                 <div class="team-shape1"></div>
                                 <div class="team-shape2"></div>
-                                <a href="team-details.html"><img src="frontend/assets/img/team/t-2-4.jpg" alt="image"></a>
+                                <a href="{{ route('team_details') }}"><img src="frontend/assets/img/team/t-2-4.jpg" alt="image"></a>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -377,7 +377,7 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="team-title h5"><a class="text-inherit" href="team-details.html">Daniel Matthew</a></h3>
+                                <h3 class="team-title h5"><a class="text-inherit" href="{{ route('team_details') }}">Daniel Matthew</a></h3>
                                 <p class="team-degi">Cheif Expert</p>
                             </div>
                         </div>
@@ -486,9 +486,9 @@
                             </div>
                             <div class="service-content">
                                 <div class="service-shape" data-bg-src="frontend/assets/img/shape/sr-bg-shape-2-1.png"></div>
-                                <h3 class="service-title h5"><a href="service-details.html">Digital Marketing</a></h3>
+                                <h3 class="service-title h5"><a href="{{ route('service_details') }}">Digital Marketing</a></h3>
                                 <p class="service-text">Intrinsicly reinvent virtual imperatives methods of empowerment and revolutionary quality...</p>
-                                <a href="service-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                <a href="{{ route('service_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -500,9 +500,9 @@
                             </div>
                             <div class="service-content">
                                 <div class="service-shape" data-bg-src="frontend/assets/img/shape/sr-bg-shape-2-1.png"></div>
-                                <h3 class="service-title h5"><a href="service-details.html">Web Development</a></h3>
+                                <h3 class="service-title h5"><a href="{{ route('service_details') }}">Web Development</a></h3>
                                 <p class="service-text">Intrinsicly reinvent virtual imperatives methods of empowerment and revolutionary quality...</p>
-                                <a href="service-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                <a href="{{ route('service_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -514,9 +514,9 @@
                             </div>
                             <div class="service-content">
                                 <div class="service-shape" data-bg-src="frontend/assets/img/shape/sr-bg-shape-2-1.png"></div>
-                                <h3 class="service-title h5"><a href="service-details.html">Software Services</a></h3>
+                                <h3 class="service-title h5"><a href="{{ route('service_details') }}">Software Services</a></h3>
                                 <p class="service-text">Intrinsicly reinvent virtual imperatives methods of empowerment and revolutionary quality...</p>
-                                <a href="service-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                <a href="{{ route('service_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -528,9 +528,9 @@
                             </div>
                             <div class="service-content">
                                 <div class="service-shape" data-bg-src="frontend/assets/img/shape/sr-bg-shape-2-1.png"></div>
-                                <h3 class="service-title h5"><a href="service-details.html">Machine Learning</a></h3>
+                                <h3 class="service-title h5"><a href="{{ route('service_details') }}">Machine Learning</a></h3>
                                 <p class="service-text">Intrinsicly reinvent virtual imperatives methods of empowerment and revolutionary quality...</p>
-                                <a href="service-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                <a href="{{ route('service_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -651,7 +651,7 @@
                                     <li><i class="far fa-check-circle"></i>Programmable Chatbots</li>
                                 </ul>
                             </div>
-                            <a href="contact.html" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4">
@@ -668,7 +668,7 @@
                                     <li><i class="far fa-check-circle"></i>Programmable Chatbots</li>
                                 </ul>
                             </div>
-                            <a href="contact.html" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4">
@@ -685,7 +685,7 @@
                                     <li><i class="far fa-check-circle"></i>Programmable Chatbots</li>
                                 </ul>
                             </div>
-                            <a href="contact.html" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4">
@@ -702,7 +702,7 @@
                                     <li><i class="far fa-check-circle"></i>Programmable Chatbots</li>
                                 </ul>
                             </div>
-                            <a href="contact.html" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
+                            <a href="{{ route('contact') }}" class="vs-btn">Get Started<i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -800,11 +800,11 @@
                                 <img src="frontend/assets/img/blog/blog-1-1.jpg" alt="Blog Image" class="w-100">
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html"><i class="far fa-calendar"></i>24 Feb, 2022</a>
-                                        <a href="blog.html"><i class="fal fa-user"></i>by admin</a>
+                                        <a href="{{ route('blog_list') }}"><i class="far fa-calendar"></i>24 Feb, 2022</a>
+                                        <a href="{{ route('blog_list') }}"><i class="fal fa-user"></i>by admin</a>
                                     </div>
-                                    <h3 class="blog-title h5"><a href="blog-details.html">Contrary to popular belief ipsum is not simply </a></h3>
-                                    <a href="blog-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                    <h3 class="blog-title h5"><a href="{{ route('blog_details') }}">Contrary to popular belief ipsum is not simply </a></h3>
+                                    <a href="{{ route('blog_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -815,11 +815,11 @@
                                 <img src="frontend/assets/img/blog/blog-1-4.jpg" alt="Blog Image" class="w-100">
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html"><i class="far fa-calendar"></i>30 Mar, 2022</a>
-                                        <a href="blog.html"><i class="fal fa-user"></i>by admin</a>
+                                        <a href="{{ route('blog_list') }}"><i class="far fa-calendar"></i>30 Mar, 2022</a>
+                                        <a href="{{ route('blog_list') }}"><i class="fal fa-user"></i>by admin</a>
                                     </div>
-                                    <h3 class="blog-title h5"><a href="blog-details.html">Lorem ipsum placeholder text commonly used</a></h3>
-                                    <a href="blog-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                    <h3 class="blog-title h5"><a href="{{ route('blog_details') }}">Lorem ipsum placeholder text commonly used</a></h3>
+                                    <a href="{{ route('blog_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -830,11 +830,11 @@
                                 <img src="frontend/assets/img/blog/blog-1-2.jpg" alt="Blog Image" class="w-100">
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html"><i class="far fa-calendar"></i>31 Jul, 2022</a>
-                                        <a href="blog.html"><i class="fal fa-user"></i>by admin</a>
+                                        <a href="{{ route('blog_list') }}"><i class="far fa-calendar"></i>31 Jul, 2022</a>
+                                        <a href="{{ route('blog_list') }}"><i class="fal fa-user"></i>by admin</a>
                                     </div>
-                                    <h3 class="blog-title h5"><a href="blog-details.html">From its medieval to the digital learn everything</a></h3>
-                                    <a href="blog-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                    <h3 class="blog-title h5"><a href="{{ route('blog_details') }}">From its medieval to the digital learn everything</a></h3>
+                                    <a href="{{ route('blog_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -845,11 +845,11 @@
                                 <img src="frontend/assets/img/blog/blog-1-3.jpg" alt="Blog Image" class="w-100">
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a href="blog.html"><i class="far fa-calendar"></i>26 Aug, 2022</a>
-                                        <a href="blog.html"><i class="fal fa-user"></i>by admin</a>
+                                        <a href="{{ route('blog_list') }}"><i class="far fa-calendar"></i>26 Aug, 2022</a>
+                                        <a href="{{ route('blog_list') }}"><i class="fal fa-user"></i>by admin</a>
                                     </div>
-                                    <h3 class="blog-title h5"><a href="blog-details.html">Global Business Goal Make Life Easy From Tech</a></h3>
-                                    <a href="blog-details.html" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
+                                    <h3 class="blog-title h5"><a href="{{ route('blog_details') }}">Global Business Goal Make Life Easy From Tech</a></h3>
+                                    <a href="{{ route('blog_details') }}" class="link-btn">Read Details<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>

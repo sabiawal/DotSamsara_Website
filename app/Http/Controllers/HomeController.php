@@ -19,6 +19,31 @@ class HomeController extends Controller
         return view('frontend.contact.index');
     }
 
+    public function blog_list()
+    {
+        return view('frontend.blog.blog-list');
+    }
+
+    public function blog_grid()
+    {
+        return view('frontend.blog.blog-grid');
+    }
+
+    public function blog_details()
+    {
+        return view('frontend.blog.blog-details');
+    }
+
+    public function team_list()
+    {
+        return view('frontend.team.team-list');
+    }
+
+    public function team_details()
+    {
+        return view('frontend.team.team-details');
+    }
+
     public function service()
     {
         return view('frontend.service.index');

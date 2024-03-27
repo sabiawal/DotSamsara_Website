@@ -1,10 +1,10 @@
-<footer class="footer-wrapper footer-layout2" data-bg-src="assets/img/bg/footer-bg-2-1.jpg">
+<footer class="footer-wrapper footer-layout2" data-bg-src="frontend/assets/img/bg/footer-bg-2-1.jpg">
     <div class="footer-top">
         <div class="container">
             <div class="row align-items-center justify-content-between gy-30">
                 <div class="col-sm-auto">
                     <div class="footer-top-logo">
-                        <a href="index.html"><img src="assets/img/logo-white.png" alt="TechBiz" class="logo"></a>
+                        <a href="index.html"><img src="frontend/assets/img/logo-white.png" alt="TechBiz" class="logo"></a>
                     </div>
                 </div>
                 <div class="col-sm-auto">

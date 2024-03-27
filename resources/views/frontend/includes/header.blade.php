@@ -46,36 +46,27 @@
                                         <a href="{{ route('about') }}">About Us</a>
                                     </li>
                                     <li class="menu-item-has-children">
+                                        <a href="#">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{ route('blog_list') }}">Blog List</a></li>
+                                            <li><a href="{{ route('blog_grid') }}">Blog Grid</a></li>
+                                            <li><a href="{{ route('blog_details') }}">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
                                         <a href="#">Service</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{ route('service') }}">Service</a></li>
                                             <li><a href="{{ route('service_details') }}">Service Details</a></li>
                                         </ul>
                                     </li>
-                                    {{-- <li class="menu-item-has-children mega-menu-wrap">
-                                        <a href="#">Pages</a>
-                                        <ul class="mega-menu">
-                                            <li><a href="#">Pagelist 3</a>
-                                                <ul>
-                                                    <li><a href="blog.html">Blog List</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                    <li><a href="service.html">Service</a></li>
-                                                    <li><a href="service-details.html">Service Details</a></li>
-                                                    <li><a href="team.html">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 4</a>
-                                                <ul>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="project.html">Projects</a></li>
-                                                    <li><a href="project-details.html">Projects Details</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
-                                                    <li><a href="error.html">Error Page</a></li>
-                                                </ul>
-                                            </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Team</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{ route('team_list') }}">Team List</a></li>
+                                            <li><a href="{{ route('team_details') }}">Team Details</a></li>
                                         </ul>
-                                    </li> --}}
+                                    </li>
                                     <li>
                                         <a href="{{ route('contact') }}">Contact</a>
                                     </li>

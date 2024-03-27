@@ -337,74 +337,7 @@
                         </ul>
                     </div>
 
-                    <div id="sidebar-menu">
-
-                        <ul id="side-menu">
-
-                            <li class="menu-title">Navigation</li>
-                
-                            <li>
-                                <a href="{{ route('admin.dashboard') }}">
-                                    <i class="mdi mdi-view-dashboard-outline"></i>
-                                    <span class="badge bg-success rounded-pill float-end">9+</span>
-                                    <span> Dashboard </span>
-                                </a>
-                            </li>
-
-                            <li class="menu-title mt-2">Apps</li>
-
-                            <li>
-                                <a href="apps-calendar.html">
-                                    <i class="mdi mdi-calendar-blank-outline"></i>
-                                    <span> Calendar </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="aboutUs.html">
-                                    <i class="mdi mdi-calendar-blank-outline"></i>
-                                    <span> About Us </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#services" data-bs-toggle="collapse">
-                                    <i class="mdi mdi-book-open-page-variant-outline"></i>
-                                    <span> Services </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <div class="collapse" id="services">
-                                    <ul class="nav-second-level">
-                                        <li>
-                                            <a href="services.html">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">Service Details</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a href="#contacts" data-bs-toggle="collapse">
-                                    <i class="mdi mdi-book-open-page-variant-outline"></i>
-                                    <span> Contacts </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <div class="collapse" id="contacts">
-                                    <ul class="nav-second-level">
-                                        <li>
-                                            <a href="contacts-list.html">Members List</a>
-                                        </li>
-                                        <li>
-                                            <a href="contacts-profile.html">Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
+                    @include('backend.includes.sidebar')
 
                     <div class="clearfix"></div>
 
@@ -916,22 +849,7 @@
                 </div> <!-- content -->
 
                 <!-- Footer Start -->
-                <footer class="footer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <script>document.write(new Date().getFullYear())</script> &copy; Adminto theme by <a href="">Coderthemes</a> 
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-md-end footer-links d-none d-sm-block">
-                                    <a href="javascript:void(0);">About Us</a>
-                                    <a href="javascript:void(0);">Help</a>
-                                    <a href="javascript:void(0);">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                @include('backend.includes.footer')
             </div>
         </div>
         <div class="right-bar">
